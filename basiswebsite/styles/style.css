@@ -5,6 +5,7 @@
   box-sizing: border-box;
 }
 
+
 /*GROTE TEKSTEN*/
 h3 {
   font-family: 'Anton',
@@ -44,7 +45,9 @@ a {
 
 .logo {
   margin-top: 5%;
+  width: 30%;
 }
+
 
 nav {
   display: flex;
@@ -62,10 +65,6 @@ ul {
 
 .navigation {
   color: #969696;
-}
-
-.logo {
-  width: 30%;
 }
 
 .menu {
@@ -168,66 +167,31 @@ ul {
 /*FOTO"S MET OVERLAY*/
 /* Je werkt hier met een container, afbeelding, overlay, text en overlayeffect. Alle samen gecombineerd zorgt wanneer een hover ingezet wordt er over de afbeelding een waas komt met een stukje tekst.*/
 
-.container1 {
+.container {
   position: relative;
   display: inline-block;
   width: 100%;
 }
 
-.container2 {
-  position: relative;
-  display: inline-block;
-  width: 100%;
+.overlay {
+  position: absolute;
+  transition: all .3s ease-in;
+  opacity: 0;
+  background-color: #ffffff;
 }
 
-.container3 {
-  position: relative;
-  display: inline-block;
+.overlayEffect {
+  height: 100%;
   width: 100%;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  background-color: #ffffff9d;
 }
 
-.container4 {
-  position: relative;
-  display: inline-block;
-  width: 100%;
+.container:hover .overlayEffect {
+  opacity: 1;
 }
-
-.container5 {
-  position: relative;
-  display: inline-block;
-  width: 100%;
-}
-
-.container6 {
-  position: relative;
-  display: inline-block;
-  width: 100%;
-}
-
-.container7 {
-  position: relative;
-  display: inline-block;
-  width: 100%;
-}
-
-.container8 {
-  position: relative;
-  display: inline-block;
-  width: 100%;
-}
-
-.container9 {
-  position: relative;
-  display: inline-block;
-  width: 100%;
-}
-
-.container10 {
-  position: relative;
-  display: inline-block;
-  width: 100%;
-}
-
 
 .foto1 {
   display: block;
@@ -295,116 +259,6 @@ ul {
   width: 100%;
 }
 
-.overlay1 {
-  position: absolute;
-  transition: all .3s ease-in;
-  opacity: 0;
-  background-color: #ffffff;
-}
-
-.overlay2 {
-  position: absolute;
-  transition: all .3s ease-in;
-  opacity: 0;
-  background-color: #ffffff;
-}
-
-.overlay3 {
-  position: absolute;
-  transition: all .3s ease-in;
-  opacity: 0;
-  background-color: #ffffff;
-}
-
-.overlay4 {
-  position: absolute;
-  transition: all .3s ease-in;
-  opacity: 0;
-  background-color: #ffffff;
-}
-
-.overlay5 {
-  position: absolute;
-  transition: all .3s ease-in;
-  opacity: 0;
-  background-color: #ffffff;
-}
-
-.overlay6 {
-  position: absolute;
-  transition: all .3s ease-in;
-  opacity: 0;
-  background-color: #ffffff;
-}
-
-.overlay7 {
-  position: absolute;
-  transition: all .3s ease-in;
-  opacity: 0;
-  background-color: #ffffff;
-}
-
-.overlay8 {
-  position: absolute;
-  transition: all .3s ease-in;
-  opacity: 0;
-  background-color: #ffffff;
-}
-
-.overlay9 {
-  position: absolute;
-  transition: all .3s ease-in;
-  opacity: 0;
-  background-color: #ffffff;
-}
-
-.overlay10 {
-  position: absolute;
-  transition: all .3s ease-in;
-  opacity: 0;
-  background-color: #ffffff;
-}
-
-
-.container1:hover .overlay1 {
-  opacity: 0.7;
-}
-
-.container2:hover .overlay2 {
-  opacity: 0.7;
-}
-
-.container3:hover .overlay3 {
-  opacity: 0.7;
-}
-
-.container4:hover .overlay4 {
-  opacity: 0.7;
-}
-
-.container5:hover .overlay5 {
-  opacity: 0.7;
-}
-
-.container6:hover .overlay6 {
-  opacity: 0.7;
-}
-
-.container7:hover .overlay7 {
-  opacity: 0.7;
-}
-
-.container8:hover .overlay8 {
-  opacity: 0.7;
-}
-
-.container9:hover .overlay9 {
-  opacity: 0.7;
-}
-
-.container10:hover .overlay10 {
-  opacity: 0.7;
-}
 
 .text1 {
   color: black;
@@ -516,136 +370,6 @@ ul {
   font-size: 24px;
 }
 
-.overlayEffect1 {
-  height: 100%;
-  width: 100%;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  background-color: #ffffff9d;
-}
-
-.overlayEffect2 {
-  height: 100%;
-  width: 100%;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  background-color: #ffffff9d;
-}
-
-.overlayEffect3 {
-  height: 100%;
-  width: 100%;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  background-color: #ffffff9d;
-}
-
-.overlayEffect4 {
-  height: 100%;
-  width: 100%;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  background-color: #ffffff9d;
-}
-
-.overlayEffect5 {
-  height: 100%;
-  width: 100%;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  background-color: #ffffff9d;
-}
-
-.overlayEffect6 {
-  height: 100%;
-  width: 100%;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  background-color: #ffffff9d;
-}
-
-.overlayEffect7 {
-  height: 100%;
-  width: 100%;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  background-color: #ffffff9d;
-}
-
-.overlayEffect8 {
-  height: 100%;
-  width: 100%;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  background-color: #ffffff9d;
-}
-
-.overlayEffect9 {
-  height: 100%;
-  width: 100%;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  background-color: #ffffff9d;
-}
-
-.overlayEffect10 {
-  height: 100%;
-  width: 100%;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  background-color: #ffffff9d;
-}
-
-.container1:hover .overlayEffect1 {
-  opacity: 1;
-}
-
-.container2:hover .overlayEffect2 {
-  opacity: 1;
-}
-
-.container3:hover .overlayEffect3 {
-  opacity: 1;
-}
-
-.container4:hover .overlayEffect4 {
-  opacity: 1;
-}
-
-.container5:hover .overlayEffect5 {
-  opacity: 1;
-}
-
-.container6:hover .overlayEffect6 {
-  opacity: 1;
-}
-
-.container7:hover .overlayEffect7 {
-  opacity: 1;
-}
-
-.container8:hover .overlayEffect8 {
-  opacity: 1;
-}
-
-.container9:hover .overlayEffect9 {
-  opacity: 1;
-}
-
-.container10:hover .overlayEffect10 {
-  opacity: 1;
-}
-
 /*FOOTER*/
 
 footer {
@@ -707,4 +431,33 @@ ul {
 .socials {
   margin-left: 1.3em;
   margin-bottom: 2.5em;
+}
+
+/** Pagina 2 **/
+
+.back-button {
+  display: flex;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  margin-top: 12%;
+  margin-left: -3%
+}
+
+.tshirt1 {
+  width: 100%;
+  padding-bottom: 5px;
+  margin-top: 3em;
+}
+
+.tshirt {
+  width: 100%;
+  padding-bottom: 5px;
+}
+
+.overflow {
+  position: absolute;
+  font-size: 2.4em;
+  top: 4.1em;
+  color: #3a3a3a;
 }
