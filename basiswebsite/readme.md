@@ -12,3 +12,4 @@ Hier onder heb ik toch een proces proberen vorm te geven met het proces dat ik h
 
 Welkom nij mijn procesverslag van Front-End Development Herkansing.
 https://www.w3schools.com/howto/howto_js_accordion.asp
+https://www.youtube.com/watch?v=flItyHiDm7E&t=2s
