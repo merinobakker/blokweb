@@ -1,12 +1,21 @@
-// JavaScript Document
-const menuButton = document.querySelector('.menu-button');
-let menuOpen = false;
-menuButton.addEventListener('click', () => {
-    if (!menuOpen) {
-        menuButton.classList.add('open');
-        menuOpen = true;
-    } else {
-        menuButton.classList.remove('open');
-        menuOpen = false;
-    }
-});
+// Hamburger menu: https://www.youtube.com/watch?v=flItyHiDm7E&t=2s
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
+
+hamburger.addEventListener("click", () => {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+
+})
+
+const foto = document.querySelector(".container");
+foto.addEventListener("click", () => {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+})
+
+const h1 = document.querySelector(".clicker");
+h1.addEventListener("click", () => {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+})
